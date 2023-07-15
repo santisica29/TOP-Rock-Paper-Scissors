@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock - Paper - Scissors</title>
+    <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Rock - Paper - Scissors</h1>
-    
-</body>
+    <img src="./images/cursor-hand-grab.svg" alt="ROCK" class="btn" style="width: 200px;" data-playerSelection="rock">
+    <img src="./images/paper.svg" alt="PAPER" class="btn" style="width: 200px;" data-playerSelection="paper">
+    <img src="./images/scissors.svg" alt="SCISSORS" class="btn" style="width: 200px;" data-playerSelection="scissors">
+
+
+    <div class="results-container">
+        <h2 class="round-result">First to get to 5 points win!</h2>
+        <h2 class="winner"></h2>
+        <p class="gamescore"></p>
+    </div>
+  </body>
 </html>
