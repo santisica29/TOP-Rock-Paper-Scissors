@@ -2,4 +2,4 @@
 
 ## [Preview Link](https://santisica29.github.io/TOP-Rock-Paper-Scissors/)
 
-PD: Still needs to figure out how to remove the event listeners after someone reaches 5 points
+PD: I till need to figure out how to remove the event listeners after someone reaches 5 points
