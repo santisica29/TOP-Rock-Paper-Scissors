@@ -47,6 +47,7 @@ function game(round) {
   round === 1 ? playerScore++ : round === -1 ? computerScore++ : "";
 
   if (playerScore === 5 || computerScore === 5) {
+    disableButtons()
     createResetBtn();
     playerScore === 5
       ? (results.innerText = "YOU WIN!")
@@ -71,6 +72,21 @@ function resetScore() {
 
   let btnToDelete = document.getElementById("reset");
   document.querySelector(".results-container").removeChild(btnToDelete);
+  unableButtons()
+}
+
+function disableButtons() {
+  buttons.forEach((btn) => {
+    btn.disabled = true;
+    btn.classList.toggle('btn-hover')
+  })
+}
+
+function unableButtons(){
+  buttons.forEach((btn) => {
+    btn.disabled = false;
+    btn.classList.toggle('btn-hover')
+  })
 }
 
 // if the user wins indicate it
