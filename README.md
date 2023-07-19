@@ -2,5 +2,5 @@
 
 ## [Preview Link](https://santisica29.github.io/TOP-Rock-Paper-Scissors/)
 
-![Preview Image](https://imgur.com/gallery/58wbBIb)
+![Preview Image](./images/Preview.png)
 
